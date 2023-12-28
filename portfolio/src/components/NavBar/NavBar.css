@@ -12,8 +12,6 @@
     font-style: bold;
 }
 
-
-
 .navbar {
     height: 5rem;
     width:100vm;
@@ -29,6 +27,8 @@
     font-family: satoshi;
     font-weight: bold;
 }
+
+
 
 .nav-links {
     display: flex;
@@ -80,4 +80,39 @@
     height: 1rem;
     width: auto;
     margin: 1rem;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .navbar {
+        padding: .01 .02rem;
+        font-size: 0.8rem;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .Contact-btn {
+        font-size: 0.3rem; /* Adjusted to match .navbar */
+        padding: .01 .02rem; /* Adjusted to match .navbar */
+    }
+
+    .Contact-img {
+        height: 0.8rem; /* Adjusted to match .navbar */
+        width: auto;
+    }
 }
