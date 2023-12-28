@@ -4,7 +4,7 @@ import  Logo  from "../assets/tan-logo-b.png";
 import Contact from "../assets/Contact-1.png";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import { navLinksAnimation } from "./animationSettings";
+import { navLinksAnimation } from "../animationSettings";
 
 const NavBar = () => {
     
