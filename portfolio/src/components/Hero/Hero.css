@@ -28,19 +28,19 @@
 
 @keyframes orbitPlanet1 {
     0% {
-      transform: rotate(0deg) translateX(250px) rotate(0deg);
+      transform: rotate(0deg) translateX(200px) rotate(0deg); /* Adjusted value */
     }
     100% {
-      transform: rotate(360deg) translateX(250px) rotate(-360deg);
+      transform: rotate(360deg) translateX(200px) rotate(-360deg); /* Adjusted value */
     }
 }
   
 @keyframes orbitPlanet2 {
     0% {
-      transform: rotate(0deg) translateX(350px) rotate(0deg);
+      transform: rotate(0deg) translateX(300px) rotate(0deg); /* Adjusted value */
     }
     100% {
-      transform: rotate(360deg) translateX(350px) rotate(-360deg);
+      transform: rotate(360deg) translateX(300px) rotate(-360deg); /* Adjusted value */
     }
 }
 
