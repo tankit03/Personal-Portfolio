@@ -20,7 +20,7 @@ const Hero = () => {
     const pulseAnimation = {
         scale: [1, 1.2, 1],
         transition: {
-            duration: 0.5,
+            duration: 1,
             repeat: Infinity
         }
     };
