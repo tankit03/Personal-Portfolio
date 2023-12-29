@@ -11,3 +11,24 @@ body{
     overflow: hidden;
     overflow-y: scroll;
 }
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/Fonts/OTF/Satoshi-Light.otf');
+    font-weight: light;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../src/components/assets/Fonts/OTF/Satoshi-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/Fonts/OTF/Satoshi-Bold.otf');
+    font-weight: bold;
+    font-style: bold;
+}

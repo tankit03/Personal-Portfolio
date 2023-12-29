@@ -1,0 +1,47 @@
+#About{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.About-title{
+    font-family: Satoshi;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000; 
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: auto;
+   
+}
+
+.About-subtitle{
+    font-family: Satoshi;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000; 
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    
+}
+
+.About-discrip{
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: light;
+    text-align: left;
+    color: #000000; 
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    width: 35%;
+}
+

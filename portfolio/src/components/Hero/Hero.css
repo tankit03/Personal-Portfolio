@@ -28,19 +28,19 @@
 
 @keyframes orbitPlanet1 {
     0% {
-      transform: rotate(0deg) translateX(200px) rotate(0deg); /* Adjusted value */
+      transform: rotate(0deg) translateX(100px) rotate(0deg); /* Adjusted value */
     }
     100% {
-      transform: rotate(360deg) translateX(200px) rotate(-360deg); /* Adjusted value */
+      transform: rotate(360deg) translateX(100px) rotate(-360deg); /* Adjusted value */
     }
 }
   
 @keyframes orbitPlanet2 {
     0% {
-      transform: rotate(0deg) translateX(300px) rotate(0deg); /* Adjusted value */
+      transform: rotate(0deg) translateX(200px) rotate(0deg); /* Adjusted value */
     }
     100% {
-      transform: rotate(360deg) translateX(300px) rotate(-360deg); /* Adjusted value */
+      transform: rotate(360deg) translateX(200px) rotate(-360deg); /* Adjusted value */
     }
 }
 
@@ -67,9 +67,9 @@
     border-radius: 595.42px;
     background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.46) 100%);
     filter: blur(40px);
-    width: 900px; /* Adjust size as needed */
-    height: 900px; /* Adju */
-    animation: orbitPlanet2 30s linear infinite;
+    width:700px; /* Adjust size as needed */
+    height: 700px; /* Adju */
+    animation: orbitPlanet2 20s linear infinite;
    
 }
 
