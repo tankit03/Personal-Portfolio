@@ -8,17 +8,19 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    padding: 40px 40px;
+    position: relative;
 
 }
 
 .About-title{
+
     font-family: Satoshi;
     font-size: 3rem;
     font-weight: bold;
     color: #000000; 
-    margin-top: 40px;
-    margin-bottom: 10px;
-    margin-right: auto;
+    margin-top: 100px;
+    margin-right: 390px;
    
 }
 
@@ -27,10 +29,16 @@
     font-size: 2rem;
     font-weight: bold;
     color: #000000; 
-    margin-top: 50px;
+    margin-top: 50x;
     margin-bottom: 10px;
-    margin-left: auto;
+    margin-left: 560px;
     
+}
+
+.About-details {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem; /* Adjust as needed */
 }
 
 .About-discrip{
@@ -41,7 +49,40 @@
     color: #000000; 
     margin-top: 10px;
     margin-bottom: 100px;
-    margin-left: auto;
-    width: 35%;
+    margin-left: 20px;
+    width: 40%;
 }
+
+.About-img{
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.planet-center-1 {
+    position: absolute;
+    
+    top: 180%;
+    left: .5%;
+    transform: translate(-50%, -50%);
+    border-radius: 820px;
+    background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.46) 100%);
+    filter: blur(60px);
+    width: 600px; /* Add this line */
+    height: 600px; /* Add this line */
+}
+
+.planet-center-2 {
+    position: absolute;
+    
+    top: 150%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+    border-radius: 820px;
+    background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+    filter: blur(50px);
+    width: 400px; /* Add this line */
+    height: 400px; /* Add this line */
+}
+
 

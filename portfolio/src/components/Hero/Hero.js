@@ -15,7 +15,8 @@ const Hero = () => {
             setTime(new Date().toLocaleTimeString('en-US', { timeZone: 'America/Los_Angeles', hour: '2-digit', minute: '2-digit' }));
         }, 1000);
         return () => clearInterval(timer);
-    }, []);    
+    }, []);   
+     
 
     const pulseAnimation = {
         scale: [1, 1.2, 1],
@@ -26,8 +27,11 @@ const Hero = () => {
     };
 
     return(
+        
+        
         <section id="intro">
             
+
            
             <motion.div className="intro-links" {...HeroLinksAnimation}>
                 <div className="planet1"/>

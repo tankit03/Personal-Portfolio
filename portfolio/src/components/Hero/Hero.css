@@ -14,6 +14,13 @@
     font-style: normal;
 }
 
+.logo {
+    object-fit:  cover;
+    height: 60px;
+    width: auto;
+    color: #000;
+}
+
 #intro  {
     display: flex;
     justify-content: center;
@@ -26,23 +33,26 @@
 
 }
 
+
+
 @keyframes orbitPlanet1 {
     0% {
-      transform: rotate(0deg) translateX(100px) rotate(0deg); /* Adjusted value */
+      transform: rotate(0deg) translateX(100px) rotate(0deg); 
     }
     100% {
-      transform: rotate(360deg) translateX(100px) rotate(-360deg); /* Adjusted value */
+      transform: rotate(360deg) translateX(100px) rotate(-360deg); 
     }
 }
   
-@keyframes orbitPlanet2 {
+    @keyframes orbitPlanet2 {
     0% {
-      transform: rotate(0deg) translateX(200px) rotate(0deg); /* Adjusted value */
+      transform: rotate(0deg) translateX(200px) rotate(0deg); 
     }
     100% {
-      transform: rotate(360deg) translateX(200px) rotate(-360deg); /* Adjusted value */
+      transform: rotate(360deg) translateX(200px) rotate(-360deg); 
     }
-}
+} 
+
 
 .planet1 {
     position: absolute;

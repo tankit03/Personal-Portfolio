@@ -21,6 +21,7 @@ const NavBar = () => {
                 <Link className="linkMenuItem" >About</Link>
                 <Link className="linkMenuItem" >Project</Link>
                 <Link className="linkMenuItem" >Photography</Link>
+                <Link className="linkMenuItem" >Resume</Link>
             </motion.div>
             <motion.div className="contact-links" {...navLinksAnimation}>
                 <button className="Contact-btn"> <img src={ Contact } alt="Contact" className="Contact-img" />Contact Me</button>
