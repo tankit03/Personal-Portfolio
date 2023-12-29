@@ -22,7 +22,12 @@ const About = () => {
                     <br/><br/>
                     Outside the work, I immerse myself in a world of hobbies that balance my academic pursuits. 📷 Photography allows me to capture the beauty of fleeting moments, while my love for traveling ✈️ takes me to new destinations, enriching my perspective of different cultures. In the kitchen, I enjoy the art of cooking 🍳, experimenting with flavors to create culinary delights. My adventurous spirit is further fueled by rock climbing 🧗, a hobby that challenges me physically and mentally, pushing my limits amidst nature's grandeur.
                     </span>
-                    <img src={ portrait1 } alt="potrait" className="About-img" />
+                    <motion.img 
+                        src={portrait1} 
+                        alt="potrait" 
+                        className="About-img"
+                        whileHover={{ scale: 1.1 }} // Add this line
+                    />
                     
                 </div>
                 
