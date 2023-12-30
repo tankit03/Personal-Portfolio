@@ -58,9 +58,10 @@
 }
 
 .About-img{
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 700px;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .planet-center-1 {
