@@ -1,15 +1,19 @@
 #About{
     overflow: hidden;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 80rem;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    padding: 0px 50px;
     position: relative;
+    border-radius: 30px;
+    background: rgba(255, 255, 227, 0.30);
+    box-shadow: 2px 15px 33px 0px rgba(0, 0, 0, 0.10), 8px 59px 60px 0px rgba(0, 0, 0, 0.09), 18px 133px 81px 0px rgba(0, 0, 0, 0.05), 32px 237px 95px 0px rgba(0, 0, 0, 0.01), 49px 370px 104px 0px rgba(0, 0, 0, 0.00);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
 
 
 }
@@ -59,12 +63,16 @@
 height: 532px;
 }
 
+
+
 .About-img{
     width: 500px;
     height: 550px;
     margin-top: 20px;
     border-radius: 15px;
     object-fit: cover;
+    flex-shrink: 1;
+    
 }
 
 .planet-center-1 {
@@ -82,9 +90,8 @@ height: 532px;
 
 .planet-center-2 {
     position: absolute;
-    
     top: 150%;
-    left: 97%;
+    left: 80%;
     transform: translate(-50%, -50%);
     border-radius: 820px;
     background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
