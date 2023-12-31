@@ -91,11 +91,11 @@ height: 532px;
 .planet-center-2 {
     position: absolute;
     top: 150%;
-    left: 80%;
+    left: 95%;
     transform: translate(-50%, -50%);
     border-radius: 820px;
     background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
     filter: blur(50px);
-    width: 400px; /* Add this line */
-    height: 400px; /* Add this line */
+    width: 500px; /* Add this line */
+    height: 500px; /* Add this line */
 }

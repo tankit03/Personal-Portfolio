@@ -2,11 +2,21 @@ import React from "react";
 import './NavBar.css';
 import  Logo  from "../assets/tan-logo-b.png";
 import Contact from "../assets/Contact-1.png";
-import { Link } from "react-scroll";
+import { Link, scroller } from "react-scroll";
 import { motion } from "framer-motion";
 import { navLinksAnimation } from "../animationSettings";
 
 const NavBar = () => {
+
+    const scrollToElement = (elementId) => {
+        setTimeout(() => {
+            scroller.scrollTo(elementId, {
+                duration: 1000,
+                smooth: true,
+                offset: -120, // Adjust as needed
+            });
+        }, 1); // Adjust delay as needed
+    };
     
     return (
        
@@ -17,8 +27,8 @@ const NavBar = () => {
             </motion.div>
 
             <motion.div className="nav-links" {...navLinksAnimation}>
-                <Link className="linkMenuItem" >Home</Link>
-                <Link className="linkMenuItem" >About</Link>
+                <Link onClick={() => scrollToElement('Home')} className="linkMenuItem">Home</Link>
+                <Link onClick={() => scrollToElement('About')} className="linkMenuItem">About</Link>
                 <Link className="linkMenuItem" >Project</Link>
                 <Link className="linkMenuItem" >Photography</Link>
                 <Link className="linkMenuItem" >Resume</Link>

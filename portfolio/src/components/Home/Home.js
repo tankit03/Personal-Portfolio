@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Hero.css";
+import "./Home.css";
 import { Link } from 'react-scroll';
 import { motion } from "framer-motion";
 import { HeroLinksAnimation } from "../animationSettings";
@@ -29,7 +29,7 @@ const Hero = () => {
     return(
         
         
-        <section id="intro">
+        <section id="Home">
             
 
            
