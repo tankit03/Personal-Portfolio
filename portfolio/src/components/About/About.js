@@ -41,13 +41,13 @@ const About = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 5 }}/>
             <div className="planet-center-2"/>
+            
             <motion.section id="About" animate={controls}>
-                
-                
-                
+
+            
+
                 <span className="About-title">About Me</span>
                 <span className="About-subtitle">Trying to figure me out ?</span>
-                
 
                 <div className="About-details">
                     <span className="About-discrip">Driven by a passion for technology and a knack for creative problem-solving, I am currently pursuing a Bachelor's degree in Computer Science with a minor in Finance at Oregon State University. My educational journey has been a rich tapestry of diverse courses, ranging from "Integral Design Engineering and Problem Solving" to "Introduction to Computer Science," providing me with a well-rounded foundation in both technical and business-related disciplines.
@@ -60,11 +60,8 @@ const About = () => {
                         className="About-img"
                         whileHover={{ scale: 1.05 }} // Add this line
                     />
-                    
                 </div>
-                
-
-            </motion.section>
+         </motion.section>
         </div>
 
 
