@@ -28,6 +28,13 @@ body{
 
 @font-face {
     font-family: 'Satoshi';
+    src: url('../src/components/assets/Fonts/OTF/Satoshi-Medium.otf');
+    font-weight: medium;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'Satoshi';
     src: url('../assets/Fonts/OTF/Satoshi-Bold.otf');
     font-weight: bold;
     font-style: bold;
