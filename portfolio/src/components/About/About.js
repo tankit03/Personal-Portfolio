@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import "./About.css";
 import { motion, useAnimation  } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
+
 import portrait1 from "../assets/portrait1.jpg";
 import portrait2 from "../assets/portrait2.jpg";
 import portrait3 from "../assets/portrait3.jpg";
@@ -11,6 +12,7 @@ const portraits = [portrait1, portrait2, portrait3];
 const About = () => {
 
     const controls = useAnimation();
+
     const { ref, inView } = useInView({
         threshold: 0.45,
     });
@@ -28,7 +30,7 @@ const About = () => {
         if (inView) {
             controls.start({ scale: .9, transition: { duration: 0.5 } });
         } else {
-            controls.start({ scale: .8, transition: { duration: 0.5 } });
+            controls.start({ scale: .7, transition: { duration: 0.5 } });
         }
     }, [controls, inView]);
 
@@ -40,7 +42,11 @@ const About = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 5 }}/>
-            <div className="planet-center-2"/>
+
+            <motion.div className="planet-center-2"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 5 }}/>
 
 
             

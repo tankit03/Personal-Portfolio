@@ -1,4 +1,5 @@
 import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 export const navLinksAnimation = {
@@ -13,5 +14,19 @@ export const HeroLinksAnimation = {
     transition: { delay: 0.5, duration: 3 }
 };
 
+export function useScrollAnimation() {
+    const controls = useAnimation();
+    const { ref, inView } = useInView({
+        threshold: 0.45,
+    });
 
+    useEffect(() => {
+        if (inView) {
+            controls.start({ scale: .9, transition: { duration: 0.5 } });
+        } else {
+            controls.start({ scale: .7, transition: { duration: 0.5 } });
+        }
+    }, [controls, inView]);
 
+    return { controls, ref };
+};

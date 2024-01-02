@@ -29,7 +29,7 @@ const NavBar = () => {
             <motion.div className="nav-links" {...navLinksAnimation}>
                 <Link onClick={() => scrollToElement('Home')} className="linkMenuItem">Home</Link>
                 <Link onClick={() => scrollToElement('About')} className="linkMenuItem">About</Link>
-                <Link className="linkMenuItem" >Project</Link>
+                <Link onClick={() => scrollToElement('Projects')} className="linkMenuItem" >Project</Link>
                 <Link className="linkMenuItem" >Photography</Link>
                 <Link className="linkMenuItem" >Resume</Link>
             </motion.div>

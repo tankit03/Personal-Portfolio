@@ -33,6 +33,14 @@
    
 }
 
+
+
+.About-details {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem; /* Adjust as needed */
+}
+
 .About-subtitle{
     font-family: Satoshi;
     font-size: 2rem;
@@ -42,12 +50,6 @@
     margin-bottom: 10px;
     margin-left: 420px;
     
-}
-
-.About-details {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 1rem; /* Adjust as needed */
 }
 
 .About-discrip{
@@ -60,10 +62,8 @@
     margin-bottom: 100px;
     margin-left: 20px;
     width: 472px;
-height: 532px;
+    height: 532px;
 }
-
-
 
 .About-img{
     width: 500px;
