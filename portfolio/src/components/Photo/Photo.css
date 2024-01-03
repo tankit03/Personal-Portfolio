@@ -1,0 +1,19 @@
+#Photography{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+    border-radius: 30px;
+    background: rgba(255, 255, 227, 0.30);
+    box-shadow: 2px 15px 33px 0px rgba(0, 0, 0, 0.10), 8px 59px 60px 0px rgba(0, 0, 0, 0.09), 18px 133px 81px 0px rgba(0, 0, 0, 0.05), 32px 237px 95px 0px rgba(0, 0, 0, 0.01), 49px 370px 104px 0px rgba(0, 0, 0, 0.00);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
+    font-family: Satoshi;    
+
+}

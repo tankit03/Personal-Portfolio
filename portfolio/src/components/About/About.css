@@ -1,0 +1,101 @@
+#About{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 80rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 30px;
+    background: rgba(255, 255, 227, 0.30);
+    box-shadow: 2px 15px 33px 0px rgba(0, 0, 0, 0.10), 8px 59px 60px 0px rgba(0, 0, 0, 0.09), 18px 133px 81px 0px rgba(0, 0, 0, 0.05), 32px 237px 95px 0px rgba(0, 0, 0, 0.01), 49px 370px 104px 0px rgba(0, 0, 0, 0.00);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
+
+
+}
+
+.div{
+    margin-top: 0px;
+}
+
+.About-title{
+
+    font-family: Satoshi;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000; 
+    margin-right: 500px;
+    margin-bottom: 0;
+   
+}
+
+
+
+.About-details {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem; /* Adjust as needed */
+}
+
+.About-subtitle{
+    font-family: Satoshi;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000; 
+    margin-top: 0x;
+    margin-bottom: 10px;
+    margin-left: 420px;
+    
+}
+
+.About-discrip{
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: light;
+    text-align: left;
+    color: #000000; 
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    width: 472px;
+    height: 532px;
+}
+
+.About-img{
+    width: 500px;
+    height: 550px;
+    margin-top: 20px;
+    border-radius: 15px;
+    object-fit: cover;
+    flex-shrink: 1;
+    
+}
+
+.planet-center-1 {
+    position: absolute;
+    
+    top: 180%;
+    left: .5%;
+    transform: translate(-50%, -50%);
+    border-radius: 820px;
+    background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.46) 100%);
+    filter: blur(60px);
+    width: 600px; /* Add this line */
+    height: 600px; /* Add this line */
+}
+
+.planet-center-2 {
+    position: absolute;
+    top: 150%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    border-radius: 820px;
+    background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+    filter: blur(50px);
+    width: 500px; /* Add this line */
+    height: 500px; /* Add this line */
+}
