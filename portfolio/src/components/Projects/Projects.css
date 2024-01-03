@@ -1,9 +1,11 @@
 #Projects{
     overflow: hidden;
-    height: 90vh;
-    width: 100vw;
-    max-width: 80rem;
+    
+    height: 100vh;
+    width: 85vw;
+    
     padding: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,9 +17,8 @@
     background: rgba(255, 255, 227, 0.20);
     box-shadow: 2px 15px 33px 0px rgba(0, 0, 0, 0.10), 8px 59px 60px 0px rgba(0, 0, 0, 0.09), 18px 133px 81px 0px rgba(0, 0, 0, 0.05), 32px 237px 95px 0px rgba(0, 0, 0, 0.01), 49px 370px 104px 0px rgba(0, 0, 0, 0.00);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     font-family: Satoshi;
-
 
 }
 
@@ -29,7 +30,7 @@
     color: #000000; 
     margin-bottom: 0px;
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 60px;
@@ -40,32 +41,38 @@
 }
 
 .Projects-container {
-    z-index: -1;
-    margin-top: 0px;
+
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* Changed from 'center' to 'flex-start' */
     gap: 10px; /* Adjust the gap as needed */
+    height: 1050px;
+    width: 1000px;
+
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-top: 90px;
+    margin-bottom: 0px;
+    border-radius: 30px;
    
-    
 }
 
 .project {
     
-    height: 200px;
-    width: 800px; /* Adjust the width as needed */
+    height: 200px; /* Adjust this value as needed */
+    width: calc(100% - 10px); /* Adjust width to account for padding */ /* Adjust the width as needed */
     border-radius: 30px; /* Rounded corners */
-    overflow: hidden; /* Ensures nothing spills outside the border-radius */
-
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 16px;
-    background: rgba(255, 255, 227, 0.60); /* Pale yellow background with transparency */
-   
-    filter: drop-shadow(1px 10px 22px rgba(0, 0, 0, 0.10)) drop-shadow(5px 39px 39px rgba(0, 0, 0, 0.09));
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 227, 0.60);
+    filter: drop-shadow(1px 10px 22px rgba(0, 0, 0, 0.10));
+    margin-bottom: 10px;
+
+    
 
 }
 
@@ -73,14 +80,15 @@
 .project-details {
     display: flex;
     flex-direction: column; /* Display children vertically */
-
+    width: 300px; /* Adjust this value as needed */
+    
     /* ...other styles... */
 }
 
 .Project-title {
     font-size: 20px; /* Large text for the title */
     font-weight: bold; /* Bold font for the title */
-    color: #333; /* Title text color */
+    color: #000000; /* Title text color */
     margin-bottom: 2px; /* Space below the title */
     text-align: left;
     margin-top: 10px;
@@ -96,19 +104,6 @@
     margin-bottom: 10px;
 }
 
-.github-text{
-    position: absolute;
-    top: 0;
-    width: 40%;
-    font-weight: bold;
-    font-size: 16px;
-    color: #000000;
-    text-align: center;
-    margin-top: 20px;
-
-    
-}
-
 .Project-img {
     display: flex;
     flex-direction: column;
@@ -121,10 +116,9 @@
 }
 
 .project-lang{
+    min-width: 300px;
     display: flex;
     flex-direction: column;
-
-
     gap: 10px;
     margin-top: 50px;
     margin-left: 40px;
@@ -136,6 +130,7 @@
 .project-logo-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 10px;
 }
 
