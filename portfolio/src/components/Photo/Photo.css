@@ -1,7 +1,8 @@
 #Photography{
     overflow: hidden;
+
     width: 100vw;
-    max-width: 65rem;
+    max-width: 70rem;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -14,6 +15,67 @@
     background: rgba(255, 255, 227, 0.30);
     box-shadow: 2px 15px 33px 0px rgba(0, 0, 0, 0.10), 8px 59px 60px 0px rgba(0, 0, 0, 0.09), 18px 133px 81px 0px rgba(0, 0, 0, 0.05), 32px 237px 95px 0px rgba(0, 0, 0, 0.01), 49px 370px 104px 0px rgba(0, 0, 0, 0.00);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
-    font-family: Satoshi;    
+    font-family: Satoshi;  
+    margin-top: 100px;  
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title{
+    font-family: Satoshi;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #000000; 
+        margin-bottom: 0;
+}
+
+.gallery {
+
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column; /* Display children in a column */
+    align-items: center; /* Center children horizontally */
+    width: 800px; /* Adjust the gap as needed */
+    
+
+    
+}
+
+.gallery-container{
+
+    display: flex;
+    flex-direction: row; /* Display children in a column */
+    align-items: center; /* Center children horizontally */
+    gap: 10px; /* Adjust the gap as needed */
 
 }
+
+
+.main {
+     /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio of the image */
+    max-height: 700px;
+    width: 550px;
+    border-radius: 0px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);  
+   
+}
+
+
+.button-l-r{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: rgba(232, 219, 138, 0.5);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
+
+
+

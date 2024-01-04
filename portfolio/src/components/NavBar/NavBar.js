@@ -1,5 +1,7 @@
 import React from "react";
 import './NavBar.css';
+
+import resume from "../assets/resume-new.pdf";
 import  Logo  from "../assets/tan-logo-b.png";
 import Contact from "../assets/Contact-1.png";
 import { Link, scroller } from "react-scroll";
@@ -31,7 +33,7 @@ const NavBar = () => {
                 <Link onClick={() => scrollToElement('About')} className="linkMenuItem">About</Link>
                 <Link onClick={() => scrollToElement('Projects')} className="linkMenuItem" >Project</Link>
                 <Link onClick={() => scrollToElement('Photography')} className="linkMenuItem" >Photography</Link>
-                <Link className="linkMenuItem" >Resume</Link>
+                <a href={resume} target="_blank" className="linkMenuItem">Resume</a>
             </motion.div>
             <motion.div className="contact-links" {...navLinksAnimation}>
                 <button className="Contact-btn"> <img src={ Contact } alt="Contact" className="Contact-img" />Contact Me</button>

@@ -3,7 +3,7 @@ import "./Projects.css";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useScrollAnimation } from '../animationSettings';
-import { useInView } from 'react-intersection-observer';
+
 import projects from './ProjectsData';
 
 
@@ -13,17 +13,14 @@ const Projects = () => {
 
     return(
         <>
-            <div className="planet-projects-1"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 5 }}/>
-
-            <div className="planet-projects-2"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 5 }}/>
+            
+            <div className="planet-projects-1"/>
+            <div className="planet-projects-2"/>                        
 
             <motion.section id="Projects" animate={controls} ref={ref}>
+
+
+            
 
                 <span className="Projects-heading">Projects</span>
                 
