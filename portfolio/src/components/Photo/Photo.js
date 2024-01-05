@@ -1,16 +1,14 @@
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { useScrollAnimation } from '../animationSettings';
+import { motion, AnimatePresence, useAnimation } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
+
 import RightArrow from "../assets/right-arrow.svg";
 import LeftArrow from "../assets/left-arrow.svg";
-
-
 import img1 from "../assets/Photo/img1.jpg";
 import img2 from "../assets/Photo/img2.jpg";
 import img3 from "../assets/Photo/img3.jpg";
 import img5 from "../assets/Photo/img5.jpg";
 import img6 from "../assets/Photo/img6.jpg";
-import img7 from "../assets/Photo/img7.jpg";
 import img10 from "../assets/Photo/img10.jpg";
 import img11 from "../assets/Photo/img11.jpg";
 import img12 from "../assets/Photo/img12.jpg";  
@@ -63,14 +61,28 @@ const Photo = () => {
         }
     };
 
-    const { controls, ref } = useScrollAnimation();
+    const controls = useAnimation();
+
+    const { ref, inView } = useInView({
+        threshold: 0.45,
+    });
+
+
+    React.useEffect(() => {
+        if (inView) {
+            controls.start({ scale: .8, transition: { duration: 0.5 } });
+        } else {
+            controls.start({ scale: .7, transition: { duration: 0.5 } });
+        }
+    }, [controls, inView]);
 
     return (
 
-        <>
+        <div ref={ref}>
 
             <div className="planet-photo-1"/>
-            <div className="planet-photo-2"/>      
+            <div className="planet-photo-2"/>  
+
             <motion.section id="Photography" animate={controls} ref={ref}>
 
                 <span className="title">Photography</span>
@@ -101,7 +113,7 @@ const Photo = () => {
                 </div>
 
             </motion.section>
-        </>
+        </div>
     );
 }
 export default Photo;

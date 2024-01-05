@@ -1,15 +1,26 @@
 import "./Projects.css";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
-import { useScrollAnimation } from '../animationSettings';
+import { useInView } from 'react-intersection-observer';
 
 import projects from './ProjectsData';
 
 
 const Projects = () => {
 
-    const { controls, ref } = useScrollAnimation();
+    const controls = useAnimation();
 
+    const { ref, inView } = useInView({
+        threshold: 0.45,
+    });
+
+    React.useEffect(() => {
+        if (inView) {
+            controls.start({ scale: .8, transition: { duration: 0.5 } });
+        } else {
+            controls.start({ scale: .7, transition: { duration: 0.5 } });
+        }
+    }, [controls, inView]);
     return(
         <>
             
@@ -17,9 +28,6 @@ const Projects = () => {
             <div className="planet-projects-2"/>                        
 
             <motion.section id="Projects" animate={controls} ref={ref}>
-
-
-            
 
                 <span className="Projects-heading">Projects</span>
                 

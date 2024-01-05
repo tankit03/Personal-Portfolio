@@ -28,7 +28,7 @@ const About = () => {
 
     React.useEffect(() => {
         if (inView) {
-            controls.start({ scale: .9, transition: { duration: 0.5 } });
+            controls.start({ scale: .8, transition: { duration: 0.5 } });
         } else {
             controls.start({ scale: .7, transition: { duration: 0.5 } });
         }
