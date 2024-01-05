@@ -36,7 +36,7 @@ const NavBar = () => {
                 <a href={resume} target="_blank" className="linkMenuItem">Resume</a>
             </motion.div>
             <motion.div className="contact-links" {...navLinksAnimation}>
-                <button className="Contact-btn"> <img src={ Contact } alt="Contact" className="Contact-img" />Contact Me</button>
+                <button onClick={() => scrollToElement('Contact')} className="Contact-btn"> <img src={ Contact } alt="Contact" className="Contact-img" />Contact Me</button>
             </motion.div>
         </nav>
         

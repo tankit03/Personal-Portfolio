@@ -1,4 +1,3 @@
-
 import "./Projects.css";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";

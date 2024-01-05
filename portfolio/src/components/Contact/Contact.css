@@ -1,0 +1,120 @@
+#Contact {
+    
+    overflow: hidden;
+
+    width: auto;
+    height: 70vh;
+    max-width: 50vw;
+
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+
+    border-radius: 30px;
+    background: rgba(239, 239, 212, 0.3);
+    box-shadow: 2px 15px 33px 0px rgba(0, 0, 0, 0.10), 8px 59px 60px 0px rgba(0, 0, 0, 0.09), 18px 133px 81px 0px rgba(0, 0, 0, 0.05), 32px 237px 95px 0px rgba(0, 0, 0, 0.01), 49px 370px 104px 0px rgba(0, 0, 0, 0.00);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: Satoshi;
+
+  
+}
+
+.contact-title{
+
+    font-family: Satoshi;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000; 
+    margin-bottom: 0;
+    padding: 20px 30px;
+}
+
+.contact-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 227, 0.30);
+    padding: 30px 40px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, .2);
+}
+
+input[type="text"], input[type="email"] {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-family: Satoshi;
+    padding: 10px;
+    border: 0px;
+    border-radius: 20px;
+    width: 300px; /* Minimum width */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+textarea {
+    margin-bottom: 10px;
+    font-family: Satoshi;
+    padding: 10px;
+    border: 0px;
+    border-radius: 20px;
+    resize: both; /* Allow the user to resize the textarea */
+    max-width: 500px; /* Maximum width */
+    max-height: 300px; /* Maximum height */
+    min-width: 300px; /* Minimum width */
+    min-height: 200px; /* Minimum height */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Satoshi;
+    background-color: #000000;
+    color: rgb(240, 240, 240);
+    padding: 10px 120px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:#FFFFE380;
+    color: #000000;
+}
+
+.planet-contact-1 {
+    position: absolute;
+    
+    top: 440%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(240deg);
+    border-radius: 820px;
+    background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.2) 100%);
+    filter: blur(30px);
+    width: 800px; /* Add this line */
+    height: 800px; /* Add this line */
+}
+
+.planet-contact-2 {
+    position: absolute;
+    top: 440%;
+    left: 65%;
+    z-index: -2;
+    transform: translate(-50%, -50%) rotate(90deg);
+    border-radius: 820px;
+    background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+    filter: blur(30px);
+    width: 600px; /* Add this line */
+    height: 600px; /* Add this line */
+}
