@@ -16,7 +16,8 @@
 
 .logo {
     object-fit:  cover;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     width: auto;
     color: #000;
 }
@@ -84,7 +85,7 @@
 }
 
 .intro-title {
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: bold;
     color: #000000; 
     z-index: 1;
@@ -104,7 +105,6 @@
     color: #000000; 
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 .intro-small{
@@ -112,7 +112,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 150px;
+    
 }
 
 .intro-time {
@@ -132,18 +132,99 @@
 }
 
 .intro-scroll{
-
+    margin-top: 50px;
     display: flex;
     align-items: center; 
     height: 20px;
     width: 20px;
-
 }
 
 
+@media (max-width: 800px) {
 
-@media (min-width: 660px) {
-    .intro-title {
-        font-size: 5rem; /* Set a fixed font size for screens wider than 600px */
+    .logo {
+ 
+        height: 60px; /* Adjust as needed */
+        width: 60px; /* Adjust as needed */
+       
     }
-}   
+
+    #Home {
+      height: 60vh;
+      width: 100vw;
+      max-width: 75rem;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .intro-title {
+      font-size: 3rem;
+    }
+
+    .intro-subtext{
+      font-size: .65rem;
+      text-align: center;
+      margin-top: 10px;
+        
+    }
+    .intro-small{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+   
+    }
+
+    .intro-time {
+      font-size: .6rem;
+      margin-left: 50px;
+      margin-bottom: 10px;
+      
+    }
+    .intro-status {
+      font-size: .6rem;
+    }
+  
+    .intro-scroll {
+      margin-top: 40px;
+      height: 15px;
+      width: 15px;
+    }
+
+    .planet1 {
+        top: 30%; /* Adjust as needed */
+        left: 5%; /* Adjust as needed */
+        width: 300px; /* Adjust size as needed */
+        height: 300px; /* Adjust size as needed */
+      }
+
+      @keyframes orbitPlanet1 {
+        0% {
+          transform: rotate(0deg) translateX(100px) rotate(0deg); /* Adjust as needed */
+        }
+        100% {
+          transform: rotate(360deg) translateX(100px) rotate(-360deg); /* Adjust as needed */
+        }
+      }
+    
+      @keyframes orbitPlanet2 {
+        0% {
+          transform: rotate(0deg) translateX(100px) rotate(0deg); /* Adjust as needed */
+        }
+        100% {
+          transform: rotate(360deg) translateX(100px) rotate(-360deg); /* Adjust as needed */
+        }
+      }
+    
+      .planet2 {
+        top: 20%; /* Adjust as needed */
+        left: 10%; /* Adjust as needed */
+        width: 200px; /* Adjust size as needed */
+        height: 200px; /* Adjust size as needed */
+      }
+
+    
+  
+    /* Add other rules as needed... */
+  }
+
+

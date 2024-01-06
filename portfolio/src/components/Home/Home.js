@@ -43,7 +43,7 @@ const Hero = () => {
            
             
             <motion.div className="intro-content" {...HeroLinksAnimation}>
-                <span className="intro-title">Hey, this is tanish!</span>
+                <span className="intro-title">Hey, this is Tanish!</span>
                 <span class="intro-subtext">Aspiring in AI & Machine Learning | Computer Science Major at Oregon State University</span>
                 
                 <div className="intro-small">
