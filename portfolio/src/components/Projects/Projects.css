@@ -168,3 +168,13 @@
     width: 500px; /* Add this line */
     height: 500px; /* Add this line */
 }
+
+@media (max-width: 850px) {
+
+    .planet-projects-1{
+        display: none;
+    }
+    .planet-projects-2{
+        display: none;
+    }
+}

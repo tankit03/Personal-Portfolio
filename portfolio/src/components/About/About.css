@@ -41,20 +41,22 @@
     gap: 1rem; /* Adjust as needed */
 }
 
-.About-subtitle{
+
+
+.About-strong{
     font-family: Satoshi;
     font-size: 2rem;
     font-weight: bold;
     color: #000000; 
+   
     margin-top: 0x;
-    margin-bottom: 10px;
-    margin-left: 420px;
-    
+    margin-left: 0px;
 }
 
 .About-discrip{
+    z-index: 1;
     font-family: Satoshi;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: light;
     text-align: left;
     color: #000000; 
@@ -98,4 +100,62 @@
     filter: blur(50px);
     width: 500px; /* Add this line */
     height: 500px; /* Add this line */
+}
+
+@media (max-width: 850px) {
+    #About {
+        height: auto;
+        width: 100vw;
+        max-width: 100%; /* Adjust as needed */
+        margin: 0 auto;
+        position: relative;
+      }
+    .About-details {
+        flex-direction: column;
+    }
+    .About-strong{
+       
+        font-size: 1.7rem;
+        margin-left: 40px;
+    
+       
+    }
+    .About-title{
+       
+        margin-right: 0px;
+    }
+
+    .About-img {
+        order: 2;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .About-subtitle{
+        order: 3;
+        margin-left: 0px;
+       
+    }
+    .About-discrip{
+        order: 4;
+        width: 90%;
+        height: auto;
+        margin-bottom: 0px;
+        text-align: center;
+        
+    }
+    .planet-center-1{
+        top: 190%; /* Adjust as needed */
+        left: .5%; /* Adjust as needed */
+        width: 400px; /* Adjust size as needed */
+        height: 400px; /* Adjust size as needed */
+    }
+    .planet-center-2{
+        top: 140%; /* Adjust as needed */
+        left: 95%; /* Adjust as needed */
+        width: 500px; /* Adjust size as needed */
+        height: 500px; /* Adjust size as needed */
+       
+    }
 }
