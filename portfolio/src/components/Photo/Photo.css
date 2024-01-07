@@ -47,9 +47,9 @@
 .gallery-container{
 
     display: flex;
-    flex-direction: row; /* Display children in a column */
+    flex-direction: column; /* Display children in a column */
     align-items: center; /* Center children horizontally */
-    gap: 10px; /* Adjust the gap as needed */
+    gap: 0px; /* Adjust the gap as needed */
 
 }
 
@@ -105,4 +105,155 @@
     filter: blur(50px);
     width: 600px; /* Add this line */
     height: 600px; /* Add this line */
+}
+
+
+@media (max-width: 850px){
+    #Photography{
+        height: auto;
+        width: 100vw;
+        max-width: 100%; /* Adjust as needed */
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        
+        
+      }
+      .gallery {
+        padding: 80px 40px;
+        display: flex;
+        flex-direction: row; /* Display children in a column */
+        align-items: center; /* Center children horizontally */
+        width: 100%; /* Adjust the gap as needed */
+        
+    }
+    .gallery-container{
+    
+        display: flex;
+        flex-direction: column; /* Display children in a column */
+        align-items: center; /* Center children horizontally */
+        gap: 10px; /* Adjust the gap as needed */
+    
+    }
+    .main {
+        /* Adjust the width as needed */
+        width: 100%; /* Adjust the gap as needed */
+        height: 500px;
+    
+    }
+    .button-l-r{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 10px 10px;
+        background-color: rgba(232, 219, 138, 0.5);
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+        border-radius: 30px;
+    }
+    
+    .planet-photo-1 {
+        position: absolute;
+        z-index:-2;
+        top: 320%;
+        left: 90%;
+        transform: translate(-50%, -50%) rotate(180deg);
+        border-radius: 820px;
+        background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.2) 100%);
+        filter: blur(40px);
+        width: 200px; /* Add this line */
+        height: 200px; /* Add this line */
+    }
+    
+    .planet-photo-2 {
+        position: absolute;
+        top: 320%;
+        left: 10%;
+        z-index: -2;
+        transform: translate(-50%, -50%) rotate(90deg);
+        border-radius: 820px;
+        background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+        filter: blur(50px);
+        width: 300px; /* Add this line */
+        height: 300px; /* Add this line */
+    }
+}
+
+@media (max-width: 450px){
+    #Photography{
+        height: auto;
+        width: 100vw;
+        max-width: 100%; /* Adjust as needed */
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        
+        
+      }
+      .gallery {
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: row; /* Display children in a column */
+        align-items: center; /* Center children horizontally */
+        width: 100%; /* Adjust the gap as needed */
+        
+    }
+    .gallery-container{
+    
+        display: flex;
+        flex-direction: column; /* Display children in a column */
+        align-items: center; /* Center children horizontally */
+        gap: 10px; /* Adjust the gap as needed */
+    
+    }
+    .main {
+        /* Adjust the width as needed */
+        width: 100%; /* Adjust the gap as needed */
+        height: 300px;
+    
+        
+       
+    }
+    .button-l-r{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 10px 10px;
+        background-color: rgba(232, 219, 138, 0.5);
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+        border-radius: 30px;
+    }
+    .planet-photo-1 {
+        position: absolute;
+        z-index:-2;
+        top: 350%;
+        left: 90%;
+        transform: translate(-50%, -50%) rotate(180deg);
+        border-radius: 820px;
+        background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.2) 100%);
+        filter: blur(40px);
+        width: 300px; /* Add this line */
+        height: 300px; /* Add this line */
+    }
+    .planet-photo-2 {
+        position: absolute;
+        top: 350%;
+        left: 10%;
+        z-index: -2;
+        transform: translate(-50%, -50%) rotate(90deg);
+        border-radius: 820px;
+        background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+        filter: blur(50px);
+        width: 200px; /* Add this line */
+        height: 200px; /* Add this line */
+    }
 }

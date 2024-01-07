@@ -11,12 +11,13 @@
     text-align: center;
     margin: 0 auto;
     position: relative;
+
     border-radius: 30px;
     background: rgba(239, 239, 212, 0.3);
     box-shadow: 2px 15px 33px 0px rgba(0, 0, 0, 0.10), 8px 59px 60px 0px rgba(0, 0, 0, 0.09), 18px 133px 81px 0px rgba(0, 0, 0, 0.05), 32px 237px 95px 0px rgba(0, 0, 0, 0.01), 49px 370px 104px 0px rgba(0, 0, 0, 0.00);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
+
     margin-top: 160px;
-    
     font-family: Satoshi;
  
 }
@@ -154,4 +155,62 @@ input[type="submit"]:hover {
     filter: blur(30px);
     width: 600px; /* Add this line */
     height: 600px; /* Add this line */
+}
+
+.contact-title-Iphone{
+    display: none;
+}
+
+@media (max-width: 980px){
+    
+        #Contact{
+            height: auto;
+            width: 100vw;
+            max-width: 100%; /* Adjust as needed */
+            margin: 0 auto;
+            position: relative;
+    
+            margin-top: 0px;
+            background: none;
+            box-shadow: none;
+            border-radius: 0px;
+            padding: 0px;
+            margin-bottom: 0px;
+
+
+            
+        }
+
+        .contact-container{
+            
+            margin-bottom: 90px;
+            margin-top: 90px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
+        }
+    
+        .contact-title{
+            display: none;
+        }
+
+        .contact-title-Iphone{
+            display: flex;
+            font-family: Satoshi;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #000000; 
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            margin-left: 60px;
+            
+        }
+
+        .planet-contact-1{
+            display: none;
+        }
+        .planet-contact-2{
+            display: none;
+        }
+        
+    
 }

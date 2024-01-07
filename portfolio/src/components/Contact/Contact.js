@@ -57,6 +57,7 @@ const Contact = () => {
 
             <span className="contact-title">Contact Me</span>
             <div className="contact-container">
+                <span className="contact-title-Iphone">Contact Me</span>
                 <motion.input
                   type="text"
                   value={name}

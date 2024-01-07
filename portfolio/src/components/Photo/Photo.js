@@ -90,26 +90,29 @@ const Photo = () => {
 
                 <div className="gallery-container">
 
-                    <button style={{ border: 'none', outline: 'none' }} onClick={handleLeftClick}>
-                        <img src={LeftArrow} className="button-l-r" alt="Left" />
-                    </button>
-
                     <div className="gallery">
-                    <AnimatePresence mode='wait'>
-                        <motion.img
-                            className="main"
-                            key={mainImageIndex}
-                            src={images[mainImageIndex]}
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                            transition={{ duration: 0.5 }}
-                        />
-                    </AnimatePresence>
+                        <AnimatePresence mode='wait'>
+                            <motion.img
+                                className="main"
+                                key={mainImageIndex}
+                                src={images[mainImageIndex]}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.5 }}
+                            />
+                        </AnimatePresence>
                     </div>
-                    <button style={{ border: 'none', outline: 'none' }} onClick={handleRightClick}>
-                        <img src={RightArrow} className="button-l-r" alt="Right" />
-                    </button>
+
+                    <div className="arrow-button">
+
+                        <button style={{ border: 'none', outline: 'none' }} onClick={handleLeftClick}>
+                            <img src={LeftArrow} className="button-l-r" alt="Left" />
+                        </button>
+                        <button style={{ border: 'none', outline: 'none' }} onClick={handleRightClick}>
+                            <img src={RightArrow} className="button-l-r" alt="Right" />
+                        </button>
+                    </div>
                 </div>
 
             </motion.section>
