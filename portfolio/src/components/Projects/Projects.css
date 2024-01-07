@@ -125,8 +125,6 @@
 
 }
 
-
-
 .project-logo-container {
     display: flex;
     flex-direction: row;
@@ -141,8 +139,6 @@
     align-self: center;
 
 }
-
-
 .planet-projects-1 {
     position: absolute;
     
@@ -169,12 +165,110 @@
     height: 500px; /* Add this line */
 }
 
-@media (max-width: 850px) {
+@media (max-width: 850px){
+    #Projects{
+        height: auto;
+        width: 100vw;
+        max-width: 100%; /* Adjust as needed */
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        
+        
+        
+      }
+
+    .Projects-container {
+        margin-top: 100px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow-y: auto;
+        align-items: center;
+        width: 500px;
+        height: 600px; /* Adjust as needed */
+        border-radius: 30px;
+    }
+
+    .Project-img{
+       
+        margin-right: 10px;
+    }
+    
+    .Projects-heading{
+        font-size: 2rem;
+        margin-bottom: 0px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 60px;
+    }
+    .project {
+        height: auto; /* Adjust this value as needed */
+        width: calc(100% - 0px); /* Adjust width to account for padding */ /* Adjust the width as needed */
+        border-radius: 30px; /* Rounded corners */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background-color: rgba(255, 255, 227, 0.60);
+        filter: drop-shadow(1px 10px 22px rgba(0, 0, 0, 0.10));
+        margin-bottom: 10px;
+    }
+    .project-details {
+        display: flex;
+        flex-direction: column; /* Display children vertically */
+        width: 300px; /* Adjust this value as needed */
+        /* ...other styles... */
+    }
+    .Project-title {
+        font-size: 20px; /* Large text for the title */
+        font-weight: bold; /* Bold font for the title */
+        color: #000000; /* Title text color */
+        margin-bottom: 2px; /* Space below the title */
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .project-lang{
+
+        margin-top: 10px;
+    }
+
+    .project-logo-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 50px;
+        
+        gap: 10px;
+    }
+    
+    .Project-description {
+        font-size: 16px; /* Normal text size for the description */
+        color: #000000;
+        margin-bottom: 16px; /* Space below the description */
+        text-align: center;  
+        width: 300px;
+        margin-bottom:
+    }
 
     .planet-projects-1{
-        display: none;
+        width: 400px;
+        height: 400px;
+        top: 310%;
+        left: 50%;
+
     }
     .planet-projects-2{
-        display: none;
+        width: 300px;
+        height: 300px;
+        top: 230%;
+        left: 50%;
+
     }
+
+   
 }
