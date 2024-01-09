@@ -1,6 +1,5 @@
 #Photography{
     overflow: hidden;
-
     width: 100vw;
     height: 100vh;
     max-width: 70%;
@@ -16,9 +15,7 @@
     background: rgba(255, 255, 227, 0.30);
     box-shadow: 2px 15px 33px 0px rgba(0, 0, 0, 0.10), 8px 59px 60px 0px rgba(0, 0, 0, 0.09), 18px 133px 81px 0px rgba(0, 0, 0, 0.05), 32px 237px 95px 0px rgba(0, 0, 0, 0.01), 49px 370px 104px 0px rgba(0, 0, 0, 0.00);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
-    font-family: Satoshi;  
-
-    
+    font-family: Satoshi;      
     padding-left: 20px;
     padding-right: 20px;
     
@@ -26,22 +23,21 @@
 
 .title{
     font-family: Satoshi;
-        font-size: 3rem;
-        font-weight: bold;
-        color: #000000; 
-        margin-bottom: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000; 
+    margin-bottom: 0;
+    margin-top: 20px;
 }
 
 .gallery {
 
-    padding: 80px 40px;
+    padding: 20px 40px;
     display: flex;
     flex-direction: column; /* Display children in a column */
     align-items: center; /* Center children horizontally */
     width: 800px; /* Adjust the gap as needed */
-    
-
-    
+        
 }
 
 .gallery-container{
@@ -108,84 +104,8 @@
 }
 
 
-@media (max-width: 850px){
-    #Photography{
-        height: auto;
-        width: 100vw;
-        max-width: 100%; /* Adjust as needed */
-        margin: 0 auto;
-        position: relative;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        
-        
-      }
-      .gallery {
-        padding: 80px 40px;
-        display: flex;
-        flex-direction: row; /* Display children in a column */
-        align-items: center; /* Center children horizontally */
-        width: 100%; /* Adjust the gap as needed */
-        
-    }
-    .gallery-container{
-    
-        display: flex;
-        flex-direction: column; /* Display children in a column */
-        align-items: center; /* Center children horizontally */
-        gap: 10px; /* Adjust the gap as needed */
-    
-    }
-    .main {
-        /* Adjust the width as needed */
-        width: 100%; /* Adjust the gap as needed */
-        height: 500px;
-    
-    }
-    .button-l-r{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 10px;
-        padding: 10px 10px;
-        background-color: rgba(232, 219, 138, 0.5);
-        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
-        border-radius: 30px;
-    }
-    
-    .planet-photo-1 {
-        position: absolute;
-        z-index:-2;
-        top: 320%;
-        left: 90%;
-        transform: translate(-50%, -50%) rotate(180deg);
-        border-radius: 820px;
-        background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.2) 100%);
-        filter: blur(40px);
-        width: 200px; /* Add this line */
-        height: 200px; /* Add this line */
-        display: none;
-    }
-    
-    .planet-photo-2 {
-        position: absolute;
-        top: 320%;
-        left: 10%;
-        z-index: -2;
-        transform: translate(-50%, -50%) rotate(90deg);
-        border-radius: 820px;
-        background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
-        filter: blur(50px);
-        width: 300px; /* Add this line */
-        height: 300px; /* Add this line */
-        display: none;
-    }
-}
 
-@media (max-width: 450px){
+@media (max-width: 1200px){
     #Photography{
         height: auto;
         width: 100vw;
