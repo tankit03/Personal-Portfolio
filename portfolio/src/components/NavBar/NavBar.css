@@ -120,14 +120,12 @@
     }
 }
 
-
-
 @media (max-width: 768px) {
     .navbar {
-        position: absolute;
+        position: sticky;
         top: 0;
         width: 100%;
-        z-index: 1000; /* This ensures the navbar is always on top of other elements */
+        z-index: 3; /* This ensures the navbar is always on top of other elements */
         
   
     }
