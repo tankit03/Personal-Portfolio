@@ -25,9 +25,17 @@ const NavBar = () => {
         }, 1); // Adjust delay as needed
     };
 
+    
+
     const handleToggle = () => {
         setIsOpen(!isOpen);
-    };
+        const navLinks = document.querySelector('.nav-links');
+        if (!isOpen) {
+          navLinks.classList.add('open');
+        } else {
+          navLinks.classList.remove('open');
+        }
+      };
     
     return (
        

@@ -14,7 +14,7 @@
 
 .navbar {
     height: 5rem;
-    width:100vm;
+    width:100vh;
     max-width:75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
@@ -37,6 +37,7 @@
     border-radius: 30px; /* rounded corners */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* shadow effect */
     backdrop-filter: blur(20px);
+
     
   
 }
@@ -122,13 +123,25 @@
 
 
 @media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1000; /* This ensures the navbar is always on top of other elements */
+        
+  
+    }
     .SandIcon {
-    position: absolute;
+      position: absolute;
       top: 20px;
       right: 20px;
       display: block;
       width: 30px;
       height: 30px;
+    }
+
+    .linkMenuItem {
+        font-size: 2rem; /* Adjusted to match .navbar */
     }
 
     .Contact-btn{
@@ -139,26 +152,30 @@
       position: absolute;
       right: 0;
       height: 100vh;
+      width: 100%;
       top: 0;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       background-color: #FFFFE3;
       border-radius: 0px;
-      width: 100%;
       transition: transform 0.3s ease-in-out;
-      transform: translateX(100%);
+      transform: translateY(-100%);
       
     }
 
+    .nav-links.open {
+        transform: translateY(0);
+    }
+    
+
     .close-icon{
-        
         position: absolute;
         top: 20px;
         right: 20px;
         display: block;
         width: 30px;
         height: 30px;
-        
+        cursor: pointer;
     }
   }
