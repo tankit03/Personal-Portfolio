@@ -1,8 +1,9 @@
 #About{
     overflow: hidden;
+    height: auto;
     width: 100vw;
-    max-width: 80rem;
-    padding: 20px;
+    max-width: 70%;
+    padding: 50px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +21,8 @@
 
 .div{
     margin-top: 0px;
+    
+    
 }
 
 .About-title{
@@ -38,6 +41,7 @@
 .About-details {
     display: flex;
     flex-direction: row-reverse;
+    
     gap: 1rem; /* Adjust as needed */
 }
 
@@ -79,9 +83,8 @@
 
 .planet-center-1 {
     position: absolute;
-    
-    top: 180%;
-    left: .5%;
+    top: 160%;
+    left: 20%;
     transform: translate(-50%, -50%);
     border-radius: 820px;
     background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.46) 100%);
@@ -92,8 +95,8 @@
 
 .planet-center-2 {
     position: absolute;
-    top: 150%;
-    left: 95%;
+    top: 130%;
+    left: 75%;
     transform: translate(-50%, -50%);
     border-radius: 820px;
     background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
@@ -102,6 +105,7 @@
     height: 500px; /* Add this line */
 }
 
+
 @media (max-width: 850px) {
     #About {
         height: auto;
@@ -109,53 +113,81 @@
         max-width: 100%; /* Adjust as needed */
         margin: 0 auto;
         position: relative;
-      }
+        margin-top: 100px;
+        margin-bottom: 0px;
+
+    }
+
+    .div{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
     .About-details {
         flex-direction: column;
+        
+        
     }
     .About-strong{
        
         font-size: 1.7rem;
-        margin-left: 40px;
     
-       
     }
     .About-title{
-       
+        margin-top: 10px;
         margin-right: 0px;
     }
 
-    .About-img {
+    .About-img {    
         order: 2;
-        width: 100%;
+        width: auto;
         height: 550px;
         margin-bottom: 20px;
-    }
-
-    .About-subtitle{
-        order: 3;
-        margin-left: 0px;
-       
+        
     }
     .About-discrip{
         order: 4;
-        width: 90%;
-        height: auto;
-        margin-bottom: 0px;
+        margin-top: 10px;
         text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 100px;
+        
         
     }
     .planet-center-1{
-        top: 190%; /* Adjust as needed */
-        left: .5%; /* Adjust as needed */
-        width: 400px; /* Adjust size as needed */
-        height: 400px; /* Adjust size as needed */
+        display: none;
     }
     .planet-center-2{
-        top: 140%; /* Adjust as needed */
-        left: 95%; /* Adjust as needed */
-        width: 500px; /* Adjust size as needed */
-        height: 500px; /* Adjust size as needed */
+        display: none;
        
     }
+}
+
+@media(max-width: 550px){
+    .About-img{
+        width: 300px;
+        height: 400px;
+    }
+    .About-discrip{
+        width: 300px;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .About-title{
+        font-size: 2.5rem;
+    }
+    .About-strong{
+        font-size: 1.5rem;
+    }
+    .planet-center-1{
+        display: none;
+    }
+    .planet-center-2{
+        display: none;
+       
+    }
+    
+    
+
 }

@@ -3,7 +3,7 @@
 
     width: 100vw;
     height: 100vh;
-    max-width: 70rem;
+    max-width: 70%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -56,8 +56,8 @@
 
 .main {
      /* Adjust the width as needed */
-    height: 400px; /* Maintain the aspect ratio of the image */
-    max-height: 500px;
+    height: 500px; /* Maintain the aspect ratio of the image */
+    max-height: 600px;
     width: auto;
     border-radius: 0px;
     box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);  
@@ -84,8 +84,8 @@
 .planet-photo-1 {
     position: absolute;
     z-index:-2;
-    top: 350%;
-    left: 90%;
+    top: 330%;
+    left: 75%;
     transform: translate(-50%, -50%) rotate(180deg);
     border-radius: 820px;
     background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.2) 100%);
@@ -96,12 +96,12 @@
 
 .planet-photo-2 {
     position: absolute;
-    top: 350%;
-    left: 10%;
+    top: 330%;
+    left: 25%;
     z-index: -2;
     transform: translate(-50%, -50%) rotate(90deg);
     border-radius: 820px;
-    background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+    background: linear-gradient(360deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
     filter: blur(50px);
     width: 600px; /* Add this line */
     height: 600px; /* Add this line */
@@ -167,6 +167,7 @@
         filter: blur(40px);
         width: 200px; /* Add this line */
         height: 200px; /* Add this line */
+        display: none;
     }
     
     .planet-photo-2 {
@@ -180,6 +181,7 @@
         filter: blur(50px);
         width: 300px; /* Add this line */
         height: 300px; /* Add this line */
+        display: none;
     }
 }
 

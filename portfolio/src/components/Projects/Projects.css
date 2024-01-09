@@ -1,9 +1,8 @@
 #Projects{
     overflow: hidden;
-    
     height: 100vh;
-    width: 85vw;
-    
+    width: 100vw;
+    max-width: 70%;
     padding: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -142,11 +141,11 @@
 .planet-projects-1 {
     position: absolute;
     z-index: -1;
-    top: 280%;
+    top: 250%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 820px;
-    background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.2) 100%);
+    background: linear-gradient(360deg, #FFCA03 0%, rgba(255, 243, 35, 0.2) 100%);
     filter: blur(60px);
     width: 700px; /* Add this line */
     height: 700px; /* Add this line */
@@ -155,18 +154,19 @@
 .planet-projects-2 {
     z-index: -1;
     position: absolute;
-    top: 205%;
+    top: 215%;
     left: 50%;
     z-index: -2;
     transform: translate(-50%, -50%) rotate(180deg);
     border-radius: 820px;
-    background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+    background: linear-gradient(360deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
     filter: blur(50px);
     width: 500px; /* Add this line */
     height: 500px; /* Add this line */
 }
 
 @media (max-width: 980px){
+
     #Projects{
         height: auto;
         width: 100vw;
@@ -257,17 +257,11 @@
     }
 
     .planet-projects-1{
-        width: 400px;
-        height: 400px;
-        top: 310%;
-        left: 50%;
+        display: none;
 
     }
     .planet-projects-2{
-        width: 300px;
-        height: 300px;
-        top: 230%;
-        left: 50%;
+        display: none;
 
     }
 

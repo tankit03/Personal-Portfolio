@@ -2,8 +2,8 @@
     
     overflow: hidden;
     width: auto;
-    height: 70vh;
-    max-width: 40vw;
+    height: 60vh;
+    max-width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,25 +134,25 @@ input[type="submit"]:hover {
 .planet-contact-1 {
     position: absolute;
     
-    top: 440%;
+    top: 435%;
     left: 40%;
     transform: translate(-50%, -50%) rotate(240deg);
     border-radius: 820px;
     background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.2) 100%);
-    filter: blur(30px);
+    filter: blur(50px);
     width: 800px; /* Add this line */
     height: 800px; /* Add this line */
 }
 
 .planet-contact-2 {
     position: absolute;
-    top: 440%;
+    top: 435%;
     left: 65%;
     z-index: -2;
     transform: translate(-50%, -50%) rotate(90deg);
     border-radius: 820px;
     background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
-    filter: blur(30px);
+    filter: blur(50px);
     width: 600px; /* Add this line */
     height: 600px; /* Add this line */
 }
@@ -165,27 +165,26 @@ input[type="submit"]:hover {
     
         #Contact{
             height: auto;
-            width: 100vw;
+            width: 100vh;
             max-width: 100%; /* Adjust as needed */
             margin: 0 auto;
             position: relative;
-    
             margin-top: 0px;
             background: none;
             box-shadow: none;
-            border-radius: 0px;
-            padding: 0px;
-            margin-bottom: 0px;
+            border-radius: 20px;
+            padding: 0px ;
+            margin-bottom: 50px;
 
 
             
         }
 
         .contact-container{
-            
+            padding: 30px 30px;
             margin-bottom: 90px;
             margin-top: 90px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.50);
         }
     
         .contact-title{
@@ -213,4 +212,22 @@ input[type="submit"]:hover {
         }
         
     
+}
+
+@media (max-width: 480px){
+    
+    #Contact{
+        height: auto;
+        width: 100vh;
+        max-width: 100%; /* Adjust as needed */
+        margin: 0 auto;
+        position: relative;
+        margin-top: 0px;
+        background: none;
+        box-shadow: none;
+        border-radius: 20px;
+        padding: 0px ;
+        margin-bottom: 50px;
+
+    }
 }
