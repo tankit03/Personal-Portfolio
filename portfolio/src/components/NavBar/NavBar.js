@@ -54,6 +54,7 @@ const NavBar = () => {
                 <Link onClick={() => {scrollToElement('Projects'); handleToggle();}} className="linkMenuItem" >Project</Link>
                 <Link onClick={() => {scrollToElement('Photography'); handleToggle();}} className="linkMenuItem" >Photography</Link>
                 <a href={resume} target="_blank" className="linkMenuItem">Resume</a>
+                <Link onClick={() => {scrollToElement('Contact'); handleToggle();}} className="contact-LinkMenu" >Contact Me</Link>
             </motion.div>
             <motion.div className="contact-links" {...navLinksAnimation}>
                 <button onClick={() => scrollToElement('Contact')} className="Contact-btn"> <img src={ Contact } alt="Contact" className="Contact-img" />Contact Me</button>
