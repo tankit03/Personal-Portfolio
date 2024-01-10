@@ -26,11 +26,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 4rem);
-    width: 100vw;
-    max-width: 75rem;
+    height: 850px;
+    width: 1200px;
+    max-width: 70%;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 20px;
 
 }
 
@@ -141,7 +142,7 @@
 
 
 
-@media (max-width: 1320px){
+@media (max-width: 1000px){
   
       .logo {
   
@@ -176,7 +177,7 @@
       .intro-small{
           display: flex;
           flex-direction: column;
-          margin-bottom: 100px;
+  
     
       }
   

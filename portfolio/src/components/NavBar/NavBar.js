@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './NavBar.css';
 
 import resume from "../assets/resume-new.pdf";
+import Logo from "../assets/tan-logo-b.png";
 
 import Contact from "../assets/Contact-1.png";
 import sandWhichIcon from "../assets/icons/menu-icon.png";
@@ -41,6 +42,7 @@ const NavBar = () => {
        
         <nav className="navbar">
             
+            <img src={Logo} alt="Logo" className="logo" />
             
 
             <div onClick={handleToggle} className="menu-icon">

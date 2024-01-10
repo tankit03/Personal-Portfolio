@@ -27,13 +27,20 @@
     font-family: satoshi;
     font-weight: bold;
 }
+.logo{
+
+    position: absolute;
+    
+}
+
+
 
 .nav-links {
     display: flex;
     gap: 1rem;
     background: rgba(255, 255, 255, 0.1); /* semi-transparent white background */
     padding: 1rem;
-    margin-left: 100px;
+    margin-left: 50px;
     border-radius: 30px; /* rounded corners */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* shadow effect */
     backdrop-filter: blur(20px);
@@ -103,6 +110,12 @@
         font-size: 0.8rem;
     }
 
+    .logo{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
     .nav-links {
         
         flex-direction: row;
@@ -124,7 +137,7 @@
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1020px) {
     .navbar {
         position: sticky;
         top: 0;

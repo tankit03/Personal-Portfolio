@@ -1,9 +1,9 @@
 #About{
     overflow: hidden;
-    height: auto;
-    width: 100vw;
-    max-width: 80%;
-    padding: 10px 0px;
+    height: 850px;
+    width: 1300px;
+    max-width: 1350px;
+    padding: 10px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,8 +21,7 @@
 
 .div{
     margin-top: 0px;
-    
-    
+
 }
 
 .About-title{
@@ -41,8 +40,8 @@
 .About-details {
     display: flex;
     flex-direction: row-reverse;
-    
-    gap: 1rem; /* Adjust as needed */
+    padding: 0px 20px;
+    gap: .5rem; /* Adjust as needed */
 }
 
 
@@ -52,7 +51,6 @@
     font-size: 2rem;
     font-weight: bold;
     color: #000000; 
-   
     margin-top: 0x;
     margin-left: 0px;
 }
@@ -81,32 +79,10 @@
     
 }
 
-.planet-center-1 {
-    position: absolute;
-    top: 160%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    border-radius: 820px;
-    background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.46) 100%);
-    filter: blur(60px);
-    width: 600px; /* Add this line */
-    height: 600px; /* Add this line */
-}
-
-.planet-center-2 {
-    position: absolute;
-    top: 130%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    border-radius: 820px;
-    background: linear-gradient(180deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
-    filter: blur(50px);
-    width: 500px; /* Add this line */
-    height: 500px; /* Add this line */
-}
 
 
-@media (max-width: 1000px) {
+
+@media (max-width: 1200px) {
     #About {
         height: auto;
         width: 100vw;
@@ -155,13 +131,6 @@
         
         
     }
-    .planet-center-1{
-        display: none;
-    }
-    .planet-center-2{
-        display: none;
-       
-    }
 }
 
 @media(max-width: 550px){
@@ -180,14 +149,5 @@
     .About-strong{
         font-size: 1.5rem;
     }
-    .planet-center-1{
-        display: none;
-    }
-    .planet-center-2{
-        display: none;
-       
-    }
-    
-    
 
 }
