@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body{
+    background-color: #FFFFE3;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/Fonts/OTF/Satoshi-Light.otf');
+    font-weight: light;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../src/components/assets/Fonts/OTF/Satoshi-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../src/components/assets/Fonts/OTF/Satoshi-Medium.otf');
+    font-weight: medium;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/Fonts/OTF/Satoshi-Bold.otf');
+    font-weight: bold;
+    font-style: bold;
+}
+
