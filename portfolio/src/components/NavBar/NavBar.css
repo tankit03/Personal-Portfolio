@@ -44,8 +44,6 @@
     border-radius: 30px; /* rounded corners */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* shadow effect */
     backdrop-filter: blur(20px);
-
-    
   
 }
 
@@ -143,8 +141,6 @@
         top: 0;
         width: 100%;
         z-index: 3; /* This ensures the navbar is always on top of other elements */
-        
-  
     }
     .SandIcon {
       position: absolute;
@@ -202,6 +198,5 @@
         font-size: 2rem;
         cursor: pointer;
         display: block;
-    
     }
-  }
+}

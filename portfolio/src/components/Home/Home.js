@@ -39,9 +39,6 @@ const Hero = () => {
             <motion.div className="intro-links" {...HeroLinksAnimation}>
                 <div className="planet2"/>
             </motion.div>
-        
-           
-            
             <motion.div className="intro-content" {...HeroLinksAnimation}>
                 <span className="intro-title">Hey, this is Tanish!</span>
                 <span class="intro-subtext">Aspiring in AI & Machine Learning | Computer Science Major at Oregon State University</span>
