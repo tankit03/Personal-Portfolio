@@ -72,9 +72,8 @@ textarea {
     border: 0px;
     border-radius: 20px;
     resize: both; /* Allow the user to resize the textarea */
-    max-width: 500px; /* Maximum width */
+    max-width: 100px; /* Maximum width */
     max-height: 200px; /* Maximum height */
-
     min-width: 300px; /* Minimum width */
     min-height: 100px; /* Minimum height */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
@@ -152,9 +151,6 @@ input[type="submit"]:hover {
             border-radius: 20px;
             padding: 0px ;
             margin-bottom: 50px;
-
-
-            
         }
 
         .contact-container{
@@ -179,7 +175,23 @@ input[type="submit"]:hover {
             margin-bottom: 10px;
             margin-left: 60px;
             
-        }    
+        }   
+
+        textarea{
+
+            max-width: 200px;
+            max-height: 300px;
+
+            
+        }
+
+        textarea{
+            
+            max-width: 100px;
+            max-height: 100px;
+    }
+        
+        
 }
 
 @media (max-width: 480px){
@@ -198,4 +210,13 @@ input[type="submit"]:hover {
         margin-bottom: 50px;
 
     }
+
+
+
+    textarea{
+            
+            max-width: 100px;
+            max-height: 100px;
+    }
+
 }

@@ -42,7 +42,7 @@ const NavBar = () => {
        
         <nav className="navbar">
             
-            <img src={Logo} alt="Logo" className="logo" />
+            <img src={Logo} alt="Logo" className="logo"  onClick={() => window.location.reload()}/>
             
 
             <div onClick={handleToggle} className="menu-icon">
