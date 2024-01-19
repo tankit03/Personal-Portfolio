@@ -244,4 +244,11 @@ input[type="submit"]:hover {
             max-height: 100px;
     }
 
+    .planet-contact-1{
+        display: none;
+    }
+    .planet-contact-2{
+        display: none;
+    }
+
 }

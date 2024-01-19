@@ -159,5 +159,12 @@
         border-radius: 30px;
         
     }
+
+    .planet-photo-1{
+        display: none;
+    }
+    .planet-photo-2{
+        display: none;
+    }
     
 }

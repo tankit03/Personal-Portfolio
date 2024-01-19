@@ -177,5 +177,11 @@
     .About-strong{
         font-size: 1.5rem;
     }
+    .planet-center-1{
+        display: none;
+    }
+    .planet-center-2{
+        display: none;
+    }
 
 }

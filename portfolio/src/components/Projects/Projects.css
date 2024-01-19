@@ -256,7 +256,12 @@
         margin-bottom:
     }
 
-    
+    .planet-projects-1{
+        display: none;
+    }    
+    .planet-projects-2{
+        display: none;
+    }
 
    
 }
