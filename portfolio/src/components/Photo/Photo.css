@@ -81,7 +81,7 @@
 
 .planet-photo-1 {
     position: absolute;
-    top: 317%; /* Adjust as needed */
+    top: 340%; /* Adjust as needed */
     left: 55%; /* Adjust as needed */
     z-index: -1;
     border-radius: 435.673px;
@@ -94,7 +94,7 @@
 
 .planet-photo-2 {
     position: absolute;
-    top: 310%; /* Adjust as needed */
+    top: 340%; /* Adjust as needed */
     left: 10%; /* Adjust as needed */
     z-index: -2;
     border-radius: 595.42px;

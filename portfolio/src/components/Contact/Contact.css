@@ -19,7 +19,7 @@
     box-shadow: 2px 15px 33px 0px rgba(0, 0, 0, 0.10), 8px 59px 60px 0px rgba(0, 0, 0, 0.09), 18px 133px 81px 0px rgba(0, 0, 0, 0.05), 32px 237px 95px 0px rgba(0, 0, 0, 0.01), 49px 370px 104px 0px rgba(0, 0, 0, 0.00);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.50);
 
-    margin-bottom: 10px;
+    margin-bottom: 200px;
     font-family: Satoshi;
  
 }
@@ -139,7 +139,7 @@ input[type="submit"]:hover {
 
 .planet-contact-1 {
     position: absolute;
-    top: 350%; /* Adjust as needed */
+    top: 420%; /* Adjust as needed */
     left: 30%; /* Adjust as needed */
     z-index: -1;
     border-radius: 800px;
@@ -152,7 +152,7 @@ input[type="submit"]:hover {
 
 .planet-contact-2 {
     position: absolute;
-    top: 350%; /* Adjust as needed */
+    top: 420%; /* Adjust as needed */
     left: 25%; /* Adjust as needed */
     z-index: -2;
     border-radius: 595.42px;
