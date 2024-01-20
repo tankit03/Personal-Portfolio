@@ -200,8 +200,8 @@
       .planet1 {
           top: 30%; /* Adjust as needed */
           left: 4%; /* Adjust as needed */
-          width: 300px; /* Adjust size as needed */
-          height: 300px; /* Adjust size as needed */
+          width: 200px; /* Adjust size as needed */
+          height: 200px; /* Adjust size as needed */
         }
   
         @keyframes orbitPlanet1 {
@@ -225,8 +225,8 @@
         .planet2 {
           top: 20%; /* Adjust as needed */
           left: 40%; /* Adjust as needed */
-          width: 200px; /* Adjust size as needed */
-          height: 200px; /* Adjust size as needed */
+          width: 100px; /* Adjust size as needed */
+          height: 100px; /* Adjust size as needed */
         }  
       /* Add other rules as needed... */
 }

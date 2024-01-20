@@ -82,14 +82,15 @@
 
 .planet-center-1 {
     position: absolute;
-    top: 125%; /* Adjust as needed */
+    top: 130%; /* Adjust as needed */
     left: 5%; /* Adjust as needed */
     z-index: -1;
     border-radius: 435.673px;
-    background: linear-gradient(90deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+    background: linear-gradient(260deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+    
     filter: blur(60px);
-    width: 600px; /* Adjust size as needed */
-    height: 600px; /* Adjust size as needed */
+    width: 700px; /* Adjust size as needed */
+    height: 700px; /* Adjust size as needed */
     padding: 20px 30px;
     
   
@@ -97,11 +98,11 @@
 
 .planet-center-2 {
     position: absolute;
-    top: 120%; /* Adjust as needed */
-    left: 50%; /* Adjust as needed */
+    top: 130%; /* Adjust as needed */
+    left: 55%; /* Adjust as needed */
     z-index: -2;
     border-radius: 595.42px;
-    background: linear-gradient(180deg, #FFCA03 0%, rgba(255, 243, 35, 0.46) 100%);
+    background: linear-gradient(90deg, #FFCA03 0%, rgba(255, 243, 35, 0.46) 100%);
     filter: blur(60px);
     width:700px; /* Adjust size as needed */
     height: 700px; /* Adju */
@@ -178,10 +179,17 @@
         font-size: 1.5rem;
     }
     .planet-center-1{
-        display: none;
+        
+        top: 180%; /* Adjust as needed */
+        left: 30%; /* Adjust as needed */
+        width: 300px; /* Adjust size as needed */
+        height: 300px; /* Adjust size as needed */
     }
     .planet-center-2{
-        display: none;
+        top: 70%; /* Adjust as needed */
+        left: 10%; /* Adjust as needed */
+        width: 300px; /* Adjust size as needed */
+        height: 300px; /* Adjust size as needed */
     }
 
 }
