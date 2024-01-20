@@ -261,12 +261,14 @@
         left: 20%; /* Adjust as needed */
         width: 350px; /* Adjust size as needed */
         height: 350px; /* Adjust size as needed */
+        display: none;
     }    
     .planet-projects-2{
         top: 250%; /* Adjust as needed */
         left: 10%; /* Adjust as needed */
         width: 350px; /* Adjust size as needed */
         height: 350px; /* Adjust size as needed */
+        display: none;
     }
 
    

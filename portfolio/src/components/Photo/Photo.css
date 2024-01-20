@@ -168,6 +168,7 @@
         height: 300px; /* Adjust size as needed */
         z-index: -1;
         background: linear-gradient(160deg, #F90716 0%, rgba(245, 138, 37, 0.00) 100%, #FF5403 100%);
+        display: none;
         
     }
     .planet-photo-2{
@@ -177,6 +178,7 @@
         height: 300px; /* Adjust size as needed */
         z-index: -2;
         background: linear-gradient(90deg, #FFCA03 0%, rgba(245, 138, 37, 0.00) 100%);
+        display: none;
     }
     
 }

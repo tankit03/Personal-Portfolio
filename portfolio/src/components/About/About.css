@@ -184,12 +184,14 @@
         left: 30%; /* Adjust as needed */
         width: 300px; /* Adjust size as needed */
         height: 300px; /* Adjust size as needed */
+        display: none;
     }
     .planet-center-2{
         top: 70%; /* Adjust as needed */
         left: 10%; /* Adjust as needed */
         width: 300px; /* Adjust size as needed */
         height: 300px; /* Adjust size as needed */
+        display: none;
     }
 
 }

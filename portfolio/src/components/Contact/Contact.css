@@ -249,12 +249,14 @@ input[type="submit"]:hover {
         left: 30%; /* Adjust as needed */
         width: 300px; /* Adjust size as needed */
         height: 300px; /* Adjust size as needed */
+        display: none;
     }
     .planet-contact-2{
         top: 400%; /* Adjust as needed */
         left: 10%; /* Adjust as needed */
         width: 300px; /* Adjust size as needed */
         height: 300px; /* Adjust size as needed */
+        display: none;
     }
 
 }
